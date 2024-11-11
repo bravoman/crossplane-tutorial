@@ -302,3 +302,9 @@ spec:
       - type: string
         string:
           fmt: "%s-password"
+#    - fromFieldPath: spec.id
+#      toFieldPath: spec.forProvider.identifier
+#      transforms:
+#      - type: string
+#        string:
+#          fmt: "%s-rds"
